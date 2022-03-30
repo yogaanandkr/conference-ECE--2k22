@@ -96,7 +96,7 @@ nav a:hover{
 }
 
 .home-img img{
-    width: 80vw;
+    /* width: 100%; */
 }
 
 .home-heading{
@@ -137,11 +137,11 @@ nav a:hover{
     
 }
 
-
-@media (min-width: 743px){
+@media screen and (max-width: 410px){
     .home .home-heading .home-img img{
-        width: 700px;
-        height: 90px;
+        
+        width: 500px;
+        height: 940px;
         margin-top: 60%;
     }
 }
@@ -150,7 +150,15 @@ nav a:hover{
     .home .home-heading .home-img img{
         width: 420px;
         height: 60px;
-        margin-top: 60%;
+        margin-top: 40%;
+    }
+}
+
+@media (min-width: 743px){
+    .home .home-heading .home-img img{
+        width: 700px;
+        height: 90px;
+        margin-top: 30%;
     }
 }
 
