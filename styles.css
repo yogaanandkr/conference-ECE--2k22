@@ -23,6 +23,14 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+@import url(//db.onlinewebfonts.com/c/8618508461241ac28084319c829099de?family=Bord+Demo);
+
+
+.home-heading h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Bord Demo";
+}
 
 .navbar{
     height: 10vh;
@@ -103,9 +111,9 @@ nav a:hover{
     text-align: center;
 }
 
-.home-img img{
+/* .home-img img{
     margin-top: 30%;
-}
+} */
 @media (max-width: 991px){
     .navbar-brand{
         margin-left: 0px;
@@ -137,38 +145,43 @@ nav a:hover{
     
 }
 
+
+.home-img .row{
+    display: grid;
+    /* margin-top: 30%; */
+    padding-top: 10%;
+    grid-template-rows: 2;
+}
+
+.home-img .row{
+    /* margin-top: 30%; */
+}
+
+
+
 @media screen and (max-width: 410px){
-    .home .home-heading .home-img img{
-        
-        width: 500px;
-        height: 940px;
-        margin-top: 60%;
+    .home .home-heading .home-img .row img{
+        width: 100vw;
     }
 }
 
 @media (max-width: 742px){
     .home .home-heading .home-img img{
-        width: 420px;
-        height: 60px;
-        margin-top: 40%;
+
     }
 }
 
 @media (min-width: 743px){
     .home .home-heading .home-img img{
-        width: 700px;
-        height: 90px;
-        margin-top: 30%;
+
     }
 }
 
 @media (min-width: 1000px){
-    .home .home-heading .home-img img{
-        width: 80vw;
-        height: 120px;
-        margin-top: 20%;
+    .home .home-heading .home-img .row img{
+
     }
-}
+} 
 
 .home-text .college{
     font-size: 40px;
